@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #2d3b2f; /* verde escuro */
+    color: #f5f1e1; /* bege */
+    overflow-x: hidden;
+}
+.cabe{
+    width: 105%;
+    height: auto;  
+    margin: 0;
+   margin-left: -4%;
+}
+header {
+    background-color: #3e5e40; /* cor de fundo um pouco mais clara */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #f5f1e1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    color: #8a9a6f; /* verde mais claro */
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #8a9a6f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5a7f55;
+}
+
+.interactive-areas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.clickable-area {
+    background-color: #4e6b4e; /* verde suave */
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    flex: 1 1 200px;
+}
+
+.clickable-area:hover {
+    background-color: #5a7f55;
+}
+
+.info-box {
+    background-color: #3e5e40;
+    padding: 15px;
+    border-radius: 10px;
+    display: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.insect-card {
+    background-color: #4e6b4e;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #e0f7fa;
+}
+
+.insect-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.art {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #334335;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.art img {
+    width: 400px;
+    height: 255px;
+    border-radius: 15%;
+}
+
+.text-art {
+    margin-top: 3%;
+    max-width: 60%;
+    color: #c9bdac;
+    font-size: 18px;
+}
+
+.text-art h3 {
+    color: #D8CFC2;
+    font-size: 23px;
+}
+  /*carrossel*/
+
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    margin: auto;
+}
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-images img {
+    width: 400px;
+    height: 255px;
+    border-radius: 15%;
+    flex-shrink: 0;
+}
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.carousel-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #3e5e40;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #8a9a6f;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #8a9a6f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #5a7f55;
+}
+
+  .rodape {
+    background-color: #3e5e40; 
+    color: #e0f7fa; 
+    text-align: center;
+    padding: 40px 30px; 
+    margin-top: 0,5%; 
+  }
+  
+  /* Estilo do texto do rodapé */
+  .rodape p {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    margin-top: 3%;
+  }
+  
+  /* Estilo dos links no rodapé */
+  .rodape-links {
+    margin-bottom: 15px;
+  }
+  
+  .instagram-link {
+    text-align: center;
+    margin-top: 4%; 
+    margin-left: 43%;
+  }
+  
+  .instagram-link a img {
+    width: 20px; 
+    height: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .instagram-link a img:hover {
+    transform: scale(1.2); 
+  }
+  
+  .instagram-link a {
+    display: flex; 
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 0.8rem; 
+  }
+  
+  .instagram-link a span {
+    margin-left: 8px;
+  }
+  
+  .logo{
+    width: 12%;
+    height: auto;
+    border-radius: 90%;
+    margin-top: -2%;
+  }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel {
+        flex-direction: column;
+    }
+}

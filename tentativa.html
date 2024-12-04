@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insetos Maravilhosos</title>
+    <link rel="stylesheet" href="css/tentativa.css">
+</head>
+<img src="image/FTINICIO.png" alt="Imagem 1" class="cabe">
+<body>
+    <header>
+        <h1>Segredos da Natureza</h1>
+        <p>Explore o mundo fascinante dos insetos!</p>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h2>Bem-vindo!</h2>
+            <p>Descubra curiosidades e informações incríveis sobre os insetos. </p>
+            <button onclick="displayMessage()">Saiba Mais</button>
+        </div>
+        <div class="interactive-areas">
+            <div class="clickable-area" onclick="showText('text1')">Clique aqui para saber sobre as Abelhas</div>
+            <div class="clickable-area" onclick="showText('text2')">Clique aqui para saber sobre as Borboletas</div>
+            <div class="clickable-area" onclick="showText('text3')">Clique aqui para saber sobre as Joaninhas</div>
+        </div>
+        <div id="info-box" class="info-box"></div>
+    </section>
+<br>
+<br>
+    <section id="gallery">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <a href="importancia.html" class="insect-card">
+                <img src="image/foto04.webp" alt="Joaninha">
+                <h3>A importancia dos Insetos</h3>
+            </a>
+            <a href="index.html" class="insect-card">
+                <img src="image/Foto01.jpg" alt="Abelha">
+                <br>
+                <br>
+                <h3>Abelha</h3>
+            </a>
+            <a href="borboleta.html" class="insect-card">
+                <img src="image/foto07.jpg" alt="Borboleta">
+                <h3>Borboleta</h3>
+            </a>
+            <a href="besou.html" class="insect-card">
+                    <img src="image/foto08.jfif" alt="Besouro">
+                    <h3>Besouro</h3>
+            </a>
+                
+        </div>
+    </section>
+
+    <section class="art">
+        <div class="text-art">
+            <h3>Aqui vai um spoiler!</h3>
+            <p><strong>Polinização</strong></p>
+            <p>Insetos como abelhas, borboletas, moscas e besouros são responsáveis por polinizar cerca de 75% das plantas com flores do mundo, incluindo muitas culturas agrícolas que alimentam a humanidade.
+
+                Sem eles, haveria um colapso na produção de alimentos, afetando frutas, vegetais, sementes e até plantas utilizadas para fins industriais.</p>
+        </div>
+        <div class="carousel">
+            <div class="carousel-images">
+              <img src="image/Foto01.jpg" alt="Imagem 1">
+              <img src="image/foto02.jpg" alt="Imagem 2">
+              <img src="image/foto03.jpg" alt="Imagem 3">
+            </div>
+            <div class="carousel-buttons">
+                <button onclick="previous()">&#10094;</button>
+                <button onclick="next()">&#10095;</button>
+              </div>
+            </div>
+    </section>
+    <section class="rodape">
+    <div class="rodape-content">
+        <img src="image/LOGO.jpeg"  class="logo">
+      <p><strong>SOBRE NÓS:</strong><br>
+        <br>
+    Segredos da natureza, um espaço dedicado a explorar as incríveis características e curiosidades do universo dos insetos! Somos apaixonados por revelar os mistérios e as maravilhas dessas criaturas fascinantes que desempenham papéis essenciais na natureza e nos ecossistemas.
+    Nosso objetivo é educar, inspirar e conectar pessoas ao mundo dos insetos, apresentando informações detalhadas e acessíveis sobre suas características, comportamentos, e importância para o planeta.
+ </p>
+               
+        <div class="instagram-link">
+          <a href="https://www.instagram.com/marina_aarantes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            <img src="image/insta.jfif" alt="Instagram">
+            <span>@Marina_aarantes</span>
+          </a>
+        </div>
+  </section>
+
+    <footer>
+        <p>&copy; 2024 Segredos da Natureza. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="tentativa.js"></script>
+</body>
+</html>
